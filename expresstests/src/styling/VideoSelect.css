@@ -1,0 +1,168 @@
+#PostComment {
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    width: 500px;
+    height: 50px;
+}
+button:hover #PostComment {
+  background-color: #00eeff;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px 10px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    outline: none;
+    width: 500px;
+    height: 50px;
+  }
+  
+  button:hover {
+    background-color: #00eeff;
+  }
+
+  input[type="text"] {
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+  }
+
+  input[type="password"] {
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="password"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+  }
+
+  input[type="file"] {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="file"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #00eeff;
+  }
+
+  textarea {
+    width: 290px;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    resize: none;
+  }
+  
+  textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px #007bff;
+  }
+
+  input[type="submit"] {
+    width: 150px;
+    height: 40px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #00eeff;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  div h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+  
+  div p {
+    margin: 0 0 10px;
+  }
+  
+  div a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  div a:hover {
+    color: #00eeff;
+  }
+
+  #CommentCaption {
+    font-size: 12px;
+  }
+
+  #ValidationText {
+    color: red;
+  }
