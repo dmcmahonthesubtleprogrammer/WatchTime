@@ -3,6 +3,10 @@ A simple web-based platform for posting and watching videos.
 
 Thanks for checking out this project!
 
+This guide assumes that you have MAMP installed on your computer.
+
+Extract these files to your MAMP htdocs folder.
+
 Essential commands:
 cd expresstests
 move to correct directory
